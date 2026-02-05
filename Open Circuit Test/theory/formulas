@@ -1,6 +1,18 @@
-In an open circuit test, all current flows through Rc and Xm. Winding resistance and reactance are negligible compared to Rc and Xm. First, cosQ is found using the formula P = V * I * cosQ.
-Then, Im and Ic are calculated using the formulas Ic = Io.cosQ and Im = Io.sinQ.
-Finally, since the voltage across the elements is V1,
+In an open circuit test, all current flows through Rc and Xm.
+The winding resistance and leakage reactance are negligible
+compared to Rc and Xm.
 
-Rc = V1/Ic and Xm = V1/Im are used to find the values ​​of Rc and Xm.
-Finally, since X = jwL, the value of L is found using L = Xm/w.
+First, the power factor is calculated using the formula:
+P = V * I * cosφ
+
+Then, the current components are obtained as:
+Ic = I0 * cosφ
+Im = I0 * sinφ
+
+Since the voltage across the core branch elements is V1,
+the parameters are calculated as:
+Rc = V1 / Ic
+Xm = V1 / Im
+
+Finally, since X = ωL, the inductance is calculated as:
+L = Xm / ω

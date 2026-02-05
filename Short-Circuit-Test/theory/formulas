@@ -1,0 +1,9 @@
+Short-circuit test: Since the core resistance 
+𝑅𝑐 and the magnetizing reactance 𝑋𝑚 are very large compared to the winding resistance and winding reactance, they draw a very small current. 
+Therefore, they can be neglected. The equivalent impedance is calculated as
+𝑍𝑒𝑞=𝑉𝑠𝑐*𝐼𝑠
+Then,
+
+𝑅𝑒𝑞=𝑍𝑒𝑞*cos⁡𝜙  and 𝑋𝑒𝑞=𝑍𝑒𝑞*sin⁡𝜙
+
+are calculated.

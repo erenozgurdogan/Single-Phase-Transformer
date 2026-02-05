@@ -1,0 +1,8 @@
+# Açık Devre Testi Teorisi
+
+![Test Şeması](open_circuit.png
+### Test Açıklaması:
+Bu şema, transformatörün mıknatıslanma akımını ve demir kayıplarını ölçmek için kullanılan açık devre testi düzeneğini göstermektedir. 
+- **Variac:** Giriş gerilimini ayarlamak için kullanılır.
+- **Wattmetre:** Çekilen aktif gücü ölçer.
+- **Sekonder:** Akım akışını engellemek için açık bırakılmıştır.
